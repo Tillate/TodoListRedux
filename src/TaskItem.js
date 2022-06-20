@@ -18,7 +18,7 @@ const TaskItem = (props) => {
         <span
           onClick={() => dispatch(deleteTask(task.id))}
           role="button"
-          style={{ padding: "5px", marginLeft: "20px" }}
+          style={{ padding: "0 8px", marginLeft: "20px" }}
         >
           X
         </span>
