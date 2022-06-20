@@ -26,6 +26,7 @@ const todoSlice = createSlice({
     deleteTask: (state, action) => {
       // {type: "todo/deleteTask", payload: 20}
       state = state.filter((t) => t.id !== action.payload);
+      return state;
     },
   },
 });
